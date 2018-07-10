@@ -32,5 +32,6 @@ nohup java -Xms3072m -Xmx3072m -Xmn1536m -XX:+UseConcMarkSweepGC -XX:CMSInitiati
 
 ![](https://github.com/maoyunfei/gateway-performance-test/blob/master/screenshot/pic3.jpg?raw=true)
 
+* more test with proxy
 
-
+![](https://github.com/maoyunfei/gateway-performance-test/blob/master/screenshot/pic4.jpg?raw=true)
