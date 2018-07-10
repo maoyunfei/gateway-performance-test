@@ -16,13 +16,19 @@ nohup java -Xms3072m -Xmx3072m -Xmn1536m -XX:+UseConcMarkSweepGC -XX:CMSInitiati
 
 ### STEP 3
 
-####benchmark with `wrk`
+#### benchmark with `wrk`
 
-![](/http://github.com/maoyunfei/gateway-performance-test/blob/master/screenshot/pic1.jpg?raw=true)
+* response with 100 and 10000 characters
 
-![](/http://github.com/maoyunfei/gateway-performance-test/blob/master/screenshot/pic2.jpg?raw=true)
+![](https://github.com/maoyunfei/gateway-performance-test/blob/master/screenshot/pic1.jpg?raw=true)
 
-![](/http://github.com/maoyunfei/gateway-performance-test/blob/master/screenshot/pic3.jpg?raw=true)
+* response with 30000 characters
+
+![](https://github.com/maoyunfei/gateway-performance-test/blob/master/screenshot/pic2.jpg?raw=true)
+
+* response with 50000 characters
+
+![](https://github.com/maoyunfei/gateway-performance-test/blob/master/screenshot/pic3.jpg?raw=true)
 
 
 
